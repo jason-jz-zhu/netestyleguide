@@ -8,7 +8,7 @@ const LeftNav = () => (
     <nav className="nav_wrap">
       <ul>
         <li><Link to="/">Logo</Link></li>
-        <li><Link to="/404">Colors</Link></li>
+        <li><Link to="/Colors">Colors</Link></li>
         <li><Link to="/404">Typography</Link></li>
         <li><Link to="/404">Icons</Link></li>
         <li><Link to="/404">PowerPoint</Link></li>
