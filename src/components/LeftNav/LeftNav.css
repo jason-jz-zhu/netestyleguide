@@ -1,0 +1,33 @@
+.nav_wrap {
+  background-color: white;
+  font-size:1em;
+}
+
+h3 {
+  color: gray;
+}
+
+.nav_wrap ul {
+  margin:0px;
+  padding:0px;
+}
+
+.nav_wrap li {
+  list-style: none;
+}
+
+.nav_wrap a {
+  color: #6a6a6a;
+  cursor: pointer;
+  display:block;
+  height:40px;
+  line-height: 25px;
+  /*text-indent: 10px;*/
+  text-decoration:none;
+  width:100%;
+  font-weight: 400;
+}
+
+.nav_wrap a:hover {
+  font-weight: bold;
+}
