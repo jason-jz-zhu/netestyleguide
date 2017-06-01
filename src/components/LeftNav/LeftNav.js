@@ -12,7 +12,7 @@ const LeftNav = () => (
         <li><Link to="/404">Typography</Link></li>
         <li><Link to="/404">Icons</Link></li>
         <li><Link to="/404">PowerPoint</Link></li>
-        <li><Link to="/404">Email</Link></li>
+        <li><Link to="/Email">Email</Link></li>
         <li><Link to="/404">Citation</Link></li>
         <li><Link to="/404">One pagers</Link></li>
       </ul>
