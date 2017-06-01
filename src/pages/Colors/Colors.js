@@ -10,12 +10,12 @@ class Colors extends Component {
         <h1>Colors</h1>
         <div>
           <h2>NETE's Standard Palette</h2>
-          <p>This palette should be used in all non web-based client deliverables and supporting presentation materials.</p>
+          <p>{`This palette should be used in all non web-based client deliverables and supporting presentation materials.`}</p>
           <div className="bigSwatch-container">
             <BigSwatch color="#205493" colorName="NETE Blue" rgbValue="32,84,148" hexValue="#205493" />
             <BigSwatch color="#4A4A4A" colorName="Mine Shaft" rgbValue="74,74,74" hexValue="#4A4A4A" />
             <BigSwatch color="#DEDEDE" colorName="Alto" rgbValue="222,222,222" hexValue="#DEDEDE" />
-            <BigSwatch color="#FFFFFF" colorName="White" rgbValue="255,255,255" hexValue="#FFFFFF" border={1}/>
+            <BigSwatch color="#FFFFFF" colorName="White" rgbValue="255,255,255" hexValue="#FFFFFF" border={1} />
           </div>
         </div>
         <div>

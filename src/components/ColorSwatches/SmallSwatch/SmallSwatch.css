@@ -1,0 +1,16 @@
+.smallSwatch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.swatch-inline{
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: 0 solid #DEDEDE;
+  box-sizing: border-box;
+  margin-right: 1em;
+}

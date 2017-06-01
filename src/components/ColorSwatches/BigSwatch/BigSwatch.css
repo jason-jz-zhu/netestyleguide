@@ -1,4 +1,5 @@
 .bigSwatch {
+  color: #616161;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
