@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SmallSwatch from '../../components/ColorSwatches/SmallSwatch/SmallSwatch';
 import List from '../../components/Layout/List/List';
+import { FlexRow, FlexColumn, FlexObject } from '../../components/Layout/Flex';
 import './Email.css';
 
 class Email extends Component {
@@ -15,19 +16,21 @@ class Email extends Component {
           <p className="nete-email-disclaimer">{`Disclaimer: The information in this e-mail and any of its attachments is confidential and may contain sensitive information. It should not be used by anyone who is not the original intended recipient. If you have received this e-mail in error, please inform the sender and delete it from your mailbox or any other storage devices. NETE shall not accept liability for any statements that are the sender’s own and not expressly made on behalf of NETE by one of its representatives.`}</p>
         </div>
 
-        <div className="info" style={{ fontSize: '10pt' }}>
-          <List listName="Acceptable Colors:">
-            <SmallSwatch color="#9B9B9B"/>
-            <SmallSwatch color="#4A4A4A"/>
-          </List>
-          <List listName="Acceptable Fonts:">
-            <div style={{ fontFamily: 'Avenir, sans-serif'}}>Avenir/Avenir Next</div>
-            <div style={{ fontFamily: 'Lato' }}>Lato</div>
-            <div style={{ fontFamily: 'Open Sans' }}>Open Sans</div>
-          </List>
-          <List listName="Acceptable Fontsize:">
-            <div>{`> 10 point font`}</div>
-          </List>
+        <div style={{ fontSize: '10pt' }}>
+          <FlexRow>
+            <List listName="Acceptable Colors:">
+              <SmallSwatch color="#9B9B9B"/>
+              <SmallSwatch color="#4A4A4A"/>
+            </List>
+            <List listName="Acceptable Fonts:">
+              <div style={{ fontFamily: 'Avenir, sans-serif'}}>Avenir/Avenir Next</div>
+              <div style={{ fontFamily: 'Lato' }}>Lato</div>
+              <div style={{ fontFamily: 'Open Sans' }}>Open Sans</div>
+            </List>
+            <List listName="Acceptable Fontsize:">
+              <div>{`> 10 point font`}</div>
+            </List>
+          </FlexRow>
         </div>
         <div>
           <h2>Client Email</h2>
@@ -36,17 +39,19 @@ class Email extends Component {
           <p className="client-email-disclaimer">{`Disclaimer: The information in this e-mail and any of its attachments is confidential and may contain sensitive information. It should not be used by anyone who is not the original intended recipient. If you have received this e-mail in error, please inform the sender and delete it from your mailbox or any other storage devices. NETE shall not accept liability for any statements that are the sender’s own and not expressly made on behalf of NETE by one of its representatives.`}</p>
         </div>
 
-        <div className="info" style={{ fontSize: '10pt' }}>
-          <List listName="Acceptable Colors:">
-            <SmallSwatch color="#9B9B9B"/>
-            <SmallSwatch color="#4A4A4A"/>
-          </List>
-          <List listName="Acceptable Fonts:">
-            <div style={{ fontFamily: 'Helvetica' }}>Helvetica</div>
-          </List>
-          <List listName="Acceptable Fontsize:">
-            <div>{`> 10 point font`}</div>
-          </List>
+        <div style={{ fontSize: '10pt' }}>
+          <FlexRow>
+            <List listName="Acceptable Colors:">
+              <SmallSwatch color="#9B9B9B"/>
+              <SmallSwatch color="#4A4A4A"/>
+            </List>
+            <List listName="Acceptable Fonts:">
+              <div style={{ fontFamily: 'Helvetica' }}>Helvetica</div>
+            </List>
+            <List listName="Acceptable Fontsize:">
+              <div>{`> 10 point font`}</div>
+            </List>
+          </FlexRow>
         </div>
       </div>
     );

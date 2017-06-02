@@ -25,9 +25,9 @@ class Colors extends Component {
             <RowSwatch color="#205493" colorName="NETE Blue" rgbValue="32,84,148" hexValue="#205493" />
             <RowSwatch color="#DEDEDE" colorName="Light Font" rgbValue="222,222,222" hexValue="#DEDEDE" />
             <RowSwatch color="#4A4A4A" colorName="Dark Font" rgbValue="74,74,74" hexValue="#4A4A4A" />
-            <RowSwatch color="#FFBC51" colorName="Yellow" rgbValue="32,84,148" hexValue="#FFBC51" />
-            <RowSwatch color="#FC6668" colorName="Red" rgbValue="32,84,148" hexValue="#FC6668" />
-            <RowSwatch color="#AFD389" colorName="Green" rgbValue="32,84,148" hexValue="#AFD389" />
+            <RowSwatch color="#FFBC51" colorName="Yellow" rgbValue="255,188,81" hexValue="#FFBC51" />
+            <RowSwatch color="#FC6668" colorName="Red" rgbValue="205,109,109" hexValue="#FC6668" />
+            <RowSwatch color="#AFD389" colorName="Green" rgbValue="175,210,137" hexValue="#AFD389" />
             <RowSwatch color="#FFFFFF" colorName="White" rgbValue="255,255,255" hexValue="#FFFFFF" border={1} />
           </div>
         </div>
