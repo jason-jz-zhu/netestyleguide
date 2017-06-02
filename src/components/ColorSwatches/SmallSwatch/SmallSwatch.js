@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import './SmallSwatch.css';
 
 const SmallSwatch = (props) => (
@@ -9,6 +10,11 @@ const SmallSwatch = (props) => (
       );
 
 SmallSwatch.propTypes = {
+  border: PropTypes.number,
 };
+
+SmallSwatch.defaultProps = {
+  border: 0,
+}
 
 export default SmallSwatch;

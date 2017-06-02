@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import './BigSwatch.css';
 
 const BigSwatch = (props) => (
@@ -8,9 +9,14 @@ const BigSwatch = (props) => (
     <div>{props.hexValue}</div>
     <div>{props.rgbValue}</div>
   </div>
-      );
+);
 
 BigSwatch.propTypes = {
+  border: PropTypes.number,
 };
+
+BigSwatch.defaultProps = {
+  border: 0,
+}
 
 export default BigSwatch;
