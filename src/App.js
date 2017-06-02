@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Contact from './pages/Contact/Contact';
 import Colors from './pages/Colors/Colors';
 import Email from './pages/Email/Email';
+import Logo from './pages/Logo/Logo';
+import PowerPointBasics from './pages/PowerPointBasics/PowerPointBasics';
 import NotFound from './pages/NotFound/NotFound';
 import Header from './components/Header/Header';
 import LeftNav from './components/LeftNav/LeftNav';import WebFont from 'webfontloader';
@@ -29,6 +31,8 @@ class App extends Component {
               <Route exact path="/" component={Contact} />
               <Route exact path="/Email" component={Email} />
               <Route exact path="/Colors" component={Colors} />
+              <Route exact path="/PowerPoint" component={PowerPointBasics} />
+              <Route exact path="/Logo" component={Logo} />
               <Route path="/404" component={NotFound} />
             </div>
           </div>
