@@ -3,6 +3,7 @@ import SmallSwatch from '../../components/ColorSwatches/SmallSwatch/SmallSwatch'
 import List from '../../components/Layout/List/List';
 import { FlexRow, FlexColumn, FlexObject } from '../../components/Layout/Flex';
 import './Email.css';
+import Footer from '../../components/Footer/Footer';
 
 class Email extends Component {
   render() {
@@ -53,6 +54,10 @@ class Email extends Component {
             </List>
           </FlexRow>
         </div>
+        <Footer
+          preTitle={'BASICS'} preContent={'PowerPoint'} preLink={'/PowerPoint'}
+          afterTitle={'BASICS'} afterContent={'Citation'} afterLink={'/Citation'}
+        />
       </div>
     );
   }
