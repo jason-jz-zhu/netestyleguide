@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Contact from './pages/Contact/Contact';
 import Colors from './pages/Colors/Colors';
 import Email from './pages/Email/Email';
+import Typography from './pages/Typography/Typography';
 import Logo from './pages/Logo/Logo';
 import PowerPointBasics from './pages/PowerPointBasics/PowerPointBasics';
 import NotFound from './pages/NotFound/NotFound';
@@ -13,7 +14,7 @@ import LeftNav from './components/LeftNav/LeftNav';import WebFont from 'webfontl
 
 WebFont.load({
   google: {
-    families: ['Lato:300,400','Maven+Pro','Open+Sans:300,400','Roboto','Work+Sans:200']
+    families: ['Lato:300,400','Maven+Pro','Open+Sans:300,400','Roboto:300,400','Work+Sans:200']
   }
 });
 
@@ -30,6 +31,7 @@ class App extends Component {
             <div className="content-container">
               <Route exact path="/" component={Contact} />
               <Route exact path="/Email" component={Email} />
+              <Route exact path="/Typography" component={Typography} />
               <Route exact path="/Colors" component={Colors} />
               <Route exact path="/PowerPoint" component={PowerPointBasics} />
               <Route exact path="/Logo" component={Logo} />
