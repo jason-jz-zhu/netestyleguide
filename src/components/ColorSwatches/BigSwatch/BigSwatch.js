@@ -5,7 +5,7 @@ import './BigSwatch.css';
 const BigSwatch = (props) => (
   <div className="bigSwatch">
     <div className="swatch" style={ {backgroundColor: props.color, borderWidth: props.border}}></div>
-    <div className="colorName">{props.colorName}</div>
+    <div className="colorName" style={{ margin:"1em 0" }}>{props.colorName}</div>
     <div>{props.hexValue}</div>
     <div>{props.rgbValue}</div>
   </div>

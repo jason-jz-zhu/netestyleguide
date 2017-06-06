@@ -4,7 +4,7 @@ import './List.css';
 
 const List = (props) => {
   return (
-    <div className="list" style={{ flex: props.flex }}>
+    <div className="list" style={{ flex: props.flex, margin: '0 1rem' }}>
       <div className="list-name">{props.listName}</div>
       {props.children}
     </div>

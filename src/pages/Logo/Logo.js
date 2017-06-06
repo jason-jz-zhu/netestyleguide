@@ -12,7 +12,7 @@ class Logo extends Component {
         <h1>Logo</h1>
         <FlexColumn>
           <FlexRow>
-            <FlexObject flex={4} >
+            <FlexObject flex={3} >
               <figure>
                 <PlaceHolderImage width="450px" height="140px" />
                 <figcaption>NETE Basic Logo</figcaption>
@@ -25,7 +25,7 @@ class Logo extends Component {
           </FlexRow>
 
           <FlexRow>
-            <FlexObject flex={4} >
+            <FlexObject flex={3} >
               <figure>
                 <PlaceHolderImage width="140px" height="140px" />
                 <figcaption>NETE N Logo</figcaption>
@@ -38,7 +38,7 @@ class Logo extends Component {
           </FlexRow>
 
           <FlexRow>
-            <FlexObject flex={4} >
+            <FlexObject flex={3} >
               <figure>
                 <PlaceHolderImage width="450px" height="150px"/>
                 <figcaption>NETE Solutions Logo</figcaption>

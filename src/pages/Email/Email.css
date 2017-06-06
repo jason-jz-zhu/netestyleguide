@@ -11,9 +11,11 @@
   font-family: 'Lato', sans-serif;
   color: #9b9b9b;
   font-size: 11pt;
+  line-height: 1.8;
 }
 .client-email-sig, .client-email-disclaimer{
   font-family: 'Helvetica', sans-serif;
   color: #9b9b9b;
   font-size: 11pt;
+  line-height: 1.5;
 }
