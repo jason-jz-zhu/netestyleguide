@@ -20,11 +20,11 @@
 }
 
 .leftNav-container {
-  flex-grow: 1;
+  flex: 1;
 }
 
 .content-container {
-  flex-grow: 4;
+  flex: 4;
 }
 
 @keyframes App-logo-spin {

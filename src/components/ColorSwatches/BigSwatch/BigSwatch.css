@@ -1,0 +1,19 @@
+.bigSwatch {
+  color: #616161;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.swatch{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 0 solid #DEDEDE;
+}
+
+.colorName{
+  font-weight: bold;
+}
