@@ -4,6 +4,7 @@ import List from '../../components/Layout/List/List';
 import { FlexRow, FlexColumn, FlexObject } from '../../components/Layout/Flex';
 import PlaceHolderImage from '../../components/Layout/PlaceHolderImage/PlaceHolderImage';
 import './Logo.css';
+import Footer from '../../components/Footer/Footer';
 
 class Logo extends Component {
   render() {
@@ -51,7 +52,10 @@ class Logo extends Component {
             </List>
           </FlexRow>
         </FlexColumn>
-        </div>
+        <Footer
+          afterTitle={'BASICS'} afterContent={'Typography'} afterLink={'/Typography'}
+        />
+      </div>
     );
   }
 }
