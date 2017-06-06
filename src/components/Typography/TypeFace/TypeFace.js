@@ -5,7 +5,7 @@ import TypeStyle from './TypeStyle';
 const TypeFace = (props) => (
   <div className="type-face">
     <h3>{props.font}</h3>
-    {props.weights.map(a => <TypeStyle {...props} weight={a} />)}
+    {props.weights.map(w => <TypeStyle {...props} weight={w} key={`${props.font}:${w[0]}`}/>)}
   </div>
 );
 

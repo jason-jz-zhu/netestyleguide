@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import './BigSwatch.css';
+import s from './BigSwatch.css';
 
 const BigSwatch = (props) => (
   <div className="bigSwatch">

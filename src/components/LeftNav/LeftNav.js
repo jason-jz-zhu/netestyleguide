@@ -3,7 +3,7 @@ import './LeftNav.css';
 import { Link } from 'react-router-dom';
 
 const LeftNav = () => (
-  <div>
+  <div className="LeftNav">
     <h3>BASICS</h3>
     <nav className="nav_wrap">
       <ul>
