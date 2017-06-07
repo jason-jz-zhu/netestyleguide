@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SmallSwatch from '../../components/ColorSwatches/SmallSwatch/SmallSwatch';
 import List from '../../components/Layout/List/List';
-import { FlexRow, FlexColumn, FlexObject } from '../../components/Layout/Flex';
+import { FlexRow, FlexObject } from '../../components/Layout/Flex';
 import PlaceHolderImage from '../../components/Layout/PlaceHolderImage/PlaceHolderImage';
 import './PowerPointBasics.css';
 import Footer from '../../components/Footer/Footer';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TypeFace from '../../components/Typography/TypeFace/TypeFace';
 import './Typography.css';
+import Footer from '../../components/Footer/Footer';
 
 class Typography extends Component {
   render() {
@@ -26,6 +27,10 @@ class Typography extends Component {
           <TypeFace font="Avenir Next" weights={ [['light', 300]]}/>
           <TypeFace font="Work Sans" weights={ [['extralight', 200]]}/>
         </div>
+        <Footer
+          preTitle={'BASICS'} preContent={'Colors'} preLink={'/Colors'}
+          afterTitle={'BASICS'} afterContent={'Icons'} afterLink={'/Icons'}
+        />
       </div>
     );
   }

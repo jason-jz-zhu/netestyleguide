@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SmallSwatch from '../../components/ColorSwatches/SmallSwatch/SmallSwatch';
 import List from '../../components/Layout/List/List';
-import { FlexRow, FlexColumn, FlexObject } from '../../components/Layout/Flex';
+import { FlexRow } from '../../components/Layout/Flex';
 import './Email.css';
 import Footer from '../../components/Footer/Footer';
 
