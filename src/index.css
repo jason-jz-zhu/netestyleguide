@@ -1,3 +1,11 @@
+/*Should keep content from shifting left or right when vertical scrollbar appears*/
+@media screen and (min-width:1020px){
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,5 +35,5 @@ h2 {
 }
 
 figure {
-  margin: 1rem;
+  margin: 0.5rem;
 }

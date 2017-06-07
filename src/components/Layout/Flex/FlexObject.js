@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const FlexObject = (props) => {
   return (
-    <div style={{ flex: props.flex, margin: '0 1rem' }}>
+    <div style={{ flex: props.flex, margin: '0 0.5rem' }}>
       {props.children}
     </div>
   );

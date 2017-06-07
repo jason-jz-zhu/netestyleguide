@@ -1,11 +1,19 @@
+.collapser {
+  transition: max-height 300ms ease-out, opacity 200ms ease-out 50ms;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
 .category-header{
   border-bottom: 1px solid #4a4a4a;
 }
 
 .toggler {
+  font-size: .65em;
   display: inline;
   font-weight: bold;
-  margin: 0.2em;
+  margin: 0.2em 1em;
   background: #DEDEDE;
-
+  min-width: 1em;
+  padding: 0 0.4em;
 }
