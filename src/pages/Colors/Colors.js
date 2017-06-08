@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BigSwatch from '../../components/ColorSwatches/BigSwatch/BigSwatch';
 import RowSwatch from '../../components/ColorSwatches/RowSwatch/RowSwatch';
 import './Colors.css';
+import Footer from '../../components/Footer/Footer';
 
 class Colors extends Component {
   render() {
@@ -31,7 +32,10 @@ class Colors extends Component {
             <RowSwatch color="#FFFFFF" colorName="White" rgbValue="255,255,255" hexValue="#FFFFFF" border={1} />
           </div>
         </div>
-
+        <Footer
+          preTitle={'BASICS'} preContent={'Logos'} preLink={'/Logo'}
+          afterTitle={'BASICS'} afterContent={'Typography'} afterLink={'/Typography'}
+        />
       </div>
     );
   }
