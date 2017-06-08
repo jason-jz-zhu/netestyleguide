@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import './Collapse.css';
 
+// All HTML inside this Component can be hidden via the +/- button
 class Collapse extends Component
 {
   constructor(props) {
@@ -8,9 +10,9 @@ class Collapse extends Component
     this.state = { visible: true };
   }
 
-toggle = (e) => {
-  this.setState({ visible: !this.state.visible });
-}
+  toggle = (e) => {
+    this.setState({ visible: !this.state.visible });
+  }
 
   render(){
     return (
@@ -20,12 +22,20 @@ toggle = (e) => {
         </h2>
         <div
           className="collapser"
-          style={this.state.visible ? {maxHeight: '100vh', opacity: 1} : {maxHeight: '0', opacity:0}}>
+          style={this.state.visible ? { maxHeight: '100vh', opacity: 1 } : { maxHeight: '0', opacity:0 }}>
           {this.props.children}
         </div>
       </div>
     );
   }
 }
+
+Collapse.propTypes = {
+  header: PropTypes.string,
+};
+
+Collapse.defaultProps = {
+  header: '',
+};
 
 export default Collapse;

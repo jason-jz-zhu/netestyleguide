@@ -9,7 +9,7 @@ class Colors extends Component {
       <div className="Colors">
         <h1>Colors</h1>
         <div>
-          <h2>NETE's Standard Palette</h2>
+          <h2>{`NETE's Standard Palette`}</h2>
           <p>{`This palette should be used in all non web-based client deliverables and supporting presentation materials.`}</p>
           <div className="bigSwatch-container">
             <BigSwatch color="#205493" colorName="NETE Blue" rgbValue="32,84,148" hexValue="#205493" />
@@ -19,8 +19,8 @@ class Colors extends Component {
           </div>
         </div>
         <div>
-          <h2>NETE's Web-based Palette</h2>
-          <p>This palette should be used in all web-based client deliverables and supporting presentation materials. This palette is not extensive, but should be used as a guide if including other colors in your soloution.</p>
+          <h2>{`NETE's Web-based Palette`}</h2>
+          <p>{`This palette should be used in all web-based client deliverables and supporting presentation materials. This palette is not extensive, but should be used as a guide if including other colors in your soloution.`}</p>
           <div className="rowSwatch-container">
             <RowSwatch color="#205493" colorName="NETE Blue" rgbValue="32,84,148" hexValue="#205493" />
             <RowSwatch color="#DEDEDE" colorName="Light Font" rgbValue="222,222,222" hexValue="#DEDEDE" />
