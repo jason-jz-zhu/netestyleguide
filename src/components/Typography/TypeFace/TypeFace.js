@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TypeStyle from './TypeStyle';
 
+// A containter for different styles of the same font
 const TypeFace = (props) => (
   <div className="type-face">
     <h3>{props.font}</h3>
-    {props.weights.map(a => <TypeStyle {...props} weight={a} />)}
+    {props.weights.map(w => <TypeStyle {...props} weight={w} key={`${props.font}:${w[0]}`}/>)}
   </div>
 );
 

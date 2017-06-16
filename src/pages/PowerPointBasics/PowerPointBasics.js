@@ -12,7 +12,7 @@ class PowerPointBasics extends Component {
       <div className="PowerPointBasics">
         <h1>PowerPoint</h1>
         <div>
-          <h2>NETE PowerPoint Styling</h2>
+          <h2>{`NETE PowerPoint Styling`}</h2>
           <FlexRow>
             <List listName="Slide Size:">540px &times; 960px</List>
             <List listName="Background Colors:">
@@ -34,15 +34,15 @@ class PowerPointBasics extends Component {
           <FlexRow>
             <FlexObject flex={1}>
               <ul>
-                <li>Do include NETE Branding on title slides</li>
-                <li>Do tell a story</li>
-                <li>Do include headers on each slide</li>
-                <li>Do include title slides for each section</li>
-                <li>Do highlight important information by bolding or styling in a different color</li>
-                <li>Do keep slides as simplistic as possible</li>
-                <li>Do make sure all font is larger than 24 point</li>
-                <li>Do follow the style guide</li>
-                <li>Do include one thought per slide</li>
+                <li>{`Do include NETE Branding on title slides`}</li>
+                <li>{`Do tell a story`}</li>
+                <li>{`Do include headers on each slide`}</li>
+                <li>{`Do include title slides for each section`}</li>
+                <li>{`Do highlight important information by bolding or styling in a different color`}</li>
+                <li>{`Do keep slides as simplistic as possible`}</li>
+                <li>{`Do make sure all font is larger than 24 point`}</li>
+                <li>{`Do follow the style guide`}</li>
+                <li>{`Do include one thought per slide`}</li>
               </ul>
             </FlexObject>
 
@@ -60,10 +60,10 @@ class PowerPointBasics extends Component {
           <FlexRow>
             <FlexObject flex={1}>
               <ul>
-                <li>Don't put too much content on the slides</li>
-                <li>Don't include font smaller than 24 point</li>
-                <li>Don't use oudated style templates</li>
-                <li>Don't use bullet points</li>
+                <li>{`Don't put too much content on the slides`}</li>
+                <li>{`Don't include font smaller than 24 point`}</li>
+                <li>{`Don't use oudated style templates`}</li>
+                <li>{`Don't use bullet points`}</li>
               </ul>
             </FlexObject>
             <FlexObject flex={1}>
