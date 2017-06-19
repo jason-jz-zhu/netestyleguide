@@ -32,11 +32,12 @@ const Footer = (props) => {
         </div>
         { /* next page button */  }
         <div className="next-page">
-          <Link to={props.afterLink} onClick={scrollFunction}>
-            <h2>
-              <div className="top-gray">{props.afterTitle}</div> <div className="bottom-black">{props.afterContent}</div>
-            </h2>
-          </Link>
+          {props.afterTitle !== undefined ?
+            <Link to={props.afterLink} onClick={scrollFunction}>
+              <h2>
+                <div className="top-gray">{props.afterTitle}</div> <div className="bottom-black">{props.afterContent}</div>
+              </h2>
+            </Link> : null}
         </div>
       </div>
       <div className="divider">
