@@ -1,0 +1,19 @@
+a {
+  transition: opacity 0.3s;
+}
+
+.hover-icon {
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  left: 0.5em;
+  bottom: 0.5em;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:hover .hover-icon  {
+  opacity: 1;
+}
