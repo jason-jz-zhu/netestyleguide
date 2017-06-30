@@ -1,9 +1,57 @@
-/*Should keep content from shifting left or right when vertical scrollbar appears*/
-@media screen and (min-width:1020px){
+/* Should keep content from shifting left or right when vertical scrollbar appears */
+@media screen and (min-width:1020px) {
   html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
   }
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./fonts/AvenirNextLTPro-Regular.eot');
+  src: url('./fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+       url('./fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+       url('./fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+       url('./fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg'),
+       url('./fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./fonts/AvenirNextLTPro-Bold.eot');
+  src: url('./fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+       url('./fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+       url('./fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+       url('./fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg'),
+       url('./fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Condensed';
+  src: url('./fonts/AvenirNextLTPro-Cn.eot');
+  src: url('./fonts/AvenirNextLTPro-Cn.woff2') format('woff2'),
+  url('./fonts/AvenirNextLTPro-Cn.woff') format('woff'),
+  url('./fonts/AvenirNextLTPro-Cn.ttf') format('truetype'),
+  url('./fonts/AvenirNextLTPro-Cn.svg#AvenirNextLTPro-Cn') format('svg'),
+  url('./fonts/AvenirNextLTPro-Cn.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Condensed';
+  src: url('./fonts/AvenirNextLTPro-UltLtCn.eot');
+  src: url('./fonts/AvenirNextLTPro-UltLtCn.woff2') format('woff2'),
+       url('./fonts/AvenirNextLTPro-UltLtCn.woff') format('woff'),
+       url('./fonts/AvenirNextLTPro-UltLtCn.ttf') format('truetype'),
+       url('./fonts/AvenirNextLTPro-UltLtCn.svg#AvenirNextLTPro-UltLtCn') format('svg'),
+       url('./fonts/AvenirNextLTPro-UltLtCn.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 body {
@@ -15,11 +63,11 @@ body {
   line-height: 1.25;
 }
 
-p{
+p {
   margin-top: 0.1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   margin-bottom: 0.5em;
   font-weight: 400;
@@ -29,9 +77,15 @@ h1 {
   font-size: 1.8em;
   color: #616161;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0.5em;
 }
+
 h2 {
   font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0.5em;
+  font-weight: 400;
 }
 
 figure {
